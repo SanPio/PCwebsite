@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+.picture{
+    width: 100%;
+    position: relative;
+    img{
+        width: 100%;
+        display: block;
+    }
+    #top{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        background-color: #111;
+    }
+}
+.content{
+    width: 1200px;
+    margin: 0 auto 100px;
+    overflow: hidden;
+    .title{
+        text-align: center;
+        margin-top: 100px;
+        h2{
+            font-size: 48px;
+            color: #4f78ff;
+        }
+        span{
+            display: block;
+            width: 30px;
+            height: 6px;
+            margin: 20px auto;
+            background-color: #4f78ff;
+        }
+        h3{
+            font-size: 24px;
+            color: #333333;
+            font-weight: normal;
+        }
+    }
+    .team{
+        overflow: hidden;
+        margin-top: 126px;
+        .team-left{
+            width: 600px;
+            height: 360px;
+            img{
+                display: block;
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;
+            }
+        }   
+        .team-right{
+            width: 524px;
+            margin-top: 38px;
+            text-align: left;
+            p{
+                font-size: 14px;
+                color: #666666;
+                line-height: 24px;
+            }
+        }
+    }
+    .department{
+        width: 100%;
+        ul{
+            overflow: hidden;
+            margin: 78px 0 38px;
+            li{
+                font-size: 20px;
+                color: #333333;
+                margin-right: 56px;
+            }
+            .on{
+                color: #4f78ff;
+            }
+        }
+        .operate,.market,.technology{
+            width: 1180px;
+            min-height: 400px;
+            background-color: #f7f7f7;
+            box-shadow:  0 0 20px #d7d7d7;
+            border-radius: 10px;
+            margin: 0 auto 10px;
+            .post{
+                text-align: left;
+                margin: 40px 80px;
+                overflow: hidden;
+                h2{
+                    font-size: 16px;
+                    color: #333333;
+                    margin-bottom: 36px;
+                }
+                .postInformation{
+                    width: 400px;
+                    margin-right: 100px;
+                    h3{
+                        font-size: 14px;
+                        color: #333333;
+                        margin: 0 0 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-weight: normal;
+                        line-height: 32px;
+                        color: #666666;
+                        span{
+                            color: #4f78ff;
+                        }
+                    }
+                }
+            }
+            .welfare{
+                text-align: left;
+                margin: 40px 80px;
+                overflow: hidden;
+                h2{
+                    font-size: 16px;
+                    color: #333333;
+                    margin-bottom: 36px;
+                }
+                .welfareInformation{
+                    width: 780px;
+                    h3{
+                        font-size: 14px;
+                        color: #333333;
+                        margin: 0 0 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-weight: normal;
+                        line-height: 32px;
+                        color: #666666;
+                    }
+                }
+            }
+        }
+        .market{
+            display: none;
+        }
+        .technology{
+            display: none;
+        }
+    }
+    .personal{
+        form{
+            .information{
+                overflow: hidden; 
+                margin-top: 80px;   
+                p{
+                    font-size: 20px;
+                    color: #333333;
+                    margin-bottom: 40px;
+                    text-align: left;
+                }        
+                input{
+                    width: 320px;
+                    height: 40px;
+                    border: 1px solid #d7d7d7;
+                    border-radius: 4px;
+                    padding: 0 0 0 12px;
+                    color: #333333;
+                    font-size: 14px;
+                }
+                ::-webkit-input-placeholder { /* WebKit browsers */
+                    color: #d7d7d7;
+                    font-size: 14px;
+                }
+            }
+            >p{
+                width: 352px;
+                height: 40px;
+                line-height: 40px;
+                border: none;
+                background-color: #4f78ff;
+                font-size: 16px;
+                color: #ffffff;
+                letter-spacing: 48px;
+                padding: 0 0 0 48px;
+                border-radius: 4px;
+                margin: 40px 400px 100px;
+            }
+           
+        }       
+
+    }
+}

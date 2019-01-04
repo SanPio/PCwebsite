@@ -1,0 +1,109 @@
+#top{
+    height: 80px;
+    background-color: #111;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+#contant{
+    width: 1200px;
+    margin: 50px auto;
+    margin-top: 100px;
+    height: 1520px;
+    .nav{
+        padding: 8px 16px;
+        border-radius: 10px;
+        width: 208px;
+        li{
+            height: 40px;
+            line-height: 40px;
+            font-size: 18px;
+            text-align: left;
+            border-bottom: 1px solid #d7d7d7;
+            padding-left: 50px;
+        }
+        li:nth-last-of-type(1){
+            border-bottom: none;
+        }
+        .choose{
+            color: #4f71ff;
+        }
+    }
+    .tab{
+        position: relative;
+        margin-left: 100px;
+        li{
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            width: 846px;
+            border-radius: 10px;
+            padding: 20px 34px 20px 30px;
+            letter-spacing: 3px;
+            h2{
+                font-size: 32px;
+                line-height: 56px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+            h3{
+                font-size: 16px;
+                text-align: left;
+                margin-top: 30px;
+            }
+            h4{
+                font-size: 18px;
+                line-height: 70px;
+                text-align: left;
+            }
+            p{
+                text-align: left;
+                font-size: 14px;
+                line-height: 24px;
+                color: #666;
+                text-indent:35px;
+                
+            }
+        }
+        .list-1{
+            p:nth-last-of-type(1){
+                margin-bottom: 30px;
+            }
+        }
+        .list-2{
+            p{
+                margin-bottom: 24px;
+            }
+        }
+        .list-3{
+            strong{
+               color: #000; 
+               margin: 0 6px;
+            }
+            strong:nth-of-type(1){
+                margin-left: 0;
+            }
+            p:nth-last-of-type(1){
+                margin-bottom: 30px;
+            }
+            
+        }
+        .list-4{
+            
+            p:nth-last-of-type(1){
+                margin-bottom: 30px;
+            }
+            
+        } 
+        .list-5{
+            p:nth-last-of-type(1){
+                margin-bottom: 30px;
+            }
+        }      
+        .tab-this{
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+var path = "http://follow.myjrq.cn/app/"

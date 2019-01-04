@@ -1,0 +1,40 @@
+$(document).ready(function (){
+    $(".href_0").click(function(){
+        sessionStorage.setItem("chooseindex",0)
+        window.parent.location.href="../../clause/clause.html";
+        
+    });
+    $(".href_1").click(function(){
+        sessionStorage.setItem("chooseindex",1)
+        window.parent.location.href='../../clause/clause.html';
+    });
+    $(".href_2").click(function(){
+        sessionStorage.setItem("chooseindex",2)
+        window.parent.location.href='../../clause/clause.html';
+    });
+    $(".href_3").click(function(){
+        sessionStorage.setItem("chooseindex",3)
+        window.parent.location.href='../../clause/clause.html';
+    });
+    $(".href_4").click(function(){
+        sessionStorage.setItem("chooseindex",4)
+        window.parent.location.href='../../clause/clause.html';
+    });
+    $(".href_5").click(function(){
+        sessionStorage.setItem("chooseindex",5)
+        window.parent.location.href='../../clause/clause.html';
+    });
+    $(".href_6").click(function(){
+        sessionStorage.setItem("chooseindex",6)
+        window.parent.location.href='../../about/about.html';
+    });
+    $(".href_7").click(function(){
+        sessionStorage.setItem("chooseindex",7)
+        window.parent.location.href='../../about/about.html';
+    });
+    $(".href_8").click(function(){
+        sessionStorage.setItem("chooseindex",8)
+        window.parent.location.href='../../about/about.html';
+    });
+   
+});

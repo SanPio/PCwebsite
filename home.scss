@@ -1,0 +1,181 @@
+
+#banner{
+    width: 100%;
+    position: relative;
+    #top{
+        width: 100%;
+        position: fixed;
+        height: 80px;
+        top: 0;
+        z-index: 1000;
+        background-color: #111;
+        padding: 0;
+    }
+    .swiper-container{
+        width: 100%;
+        height:100%;
+        .swiper-slide{
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.contant{
+    dl{
+        margin-top: 50px;
+        dt{ 
+            color: #5075fa;
+            font-weight: bold;
+            font-size: 38px;
+            line-height: 78px;
+        }
+        dd:nth-of-type(1){
+            width: 30px;
+            height:10px;
+            background-color: #5075fa;
+            margin: 0 auto;
+        }
+        dd:nth-of-type(2){
+            text-align: center;
+            font-size: 22px;
+            line-height: 62px;
+        }
+    }
+}
+.signal{
+    height: 800px;
+    width: 100%;
+    .signal_box{
+        width: 1180px;
+        margin: 0 auto;
+        li{
+            background-color: #fff;
+            width: 300px;
+            height:500px; 
+            margin: 0 45px;
+            border-radius: 8px;
+            img{
+                width: 188px;
+                height:248px;
+                border: 1px solid #8794d1;
+                border-radius: 50%;
+                margin: 0 auto;
+                margin-top: 40px;
+                
+            }
+            p{
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 64px;
+            }
+            ul{
+                margin-top: 10px;
+                li{
+                    font-size: 20px;
+                    line-height: 32px;
+                    margin-top: 10px;
+                    height: 32px;
+                    text-align: center;
+                    margin: 0;
+                }
+            }
+        }
+        
+    }
+}
+.advantage{
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    dl{
+        margin-bottom: 50px;
+    }
+    .flex{
+        width: 1200px;
+        margin: 0 auto;
+        justify-content: center;
+        margin-bottom: 50px;
+        .flex-left{
+            margin-right: 320px;
+        }
+        .flex-center{
+            margin: 0 192px;
+        }
+        p{
+            width: 150px;
+            box-sizing: border-box;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #fff;
+            margin-left: 54px;
+            img{
+                margin-top: 27px;
+            }
+        }
+        p:hover{
+            border: 1px solid #5075fa;
+            -moz-box-shadow: 0px 0px 30px #5075fa;
+            -webkit-box-shadow: 0px 0px 30px #5075fa;
+            box-shadow:0px 0px 30px #5075fa;
+        }
+        dl{
+            dt{
+                font-size: 20px;
+                height: 52px;
+                line-height: 52px;
+                color: #000;
+            }
+            dd:nth-of-type(1),dd:nth-of-type(2){
+                font-size: 14px;
+                color: #666;
+                background-color: #f7f7f7;
+                width: 252px;
+                height: 24px;
+                line-height: 24px;
+            } 
+        }
+        
+    }
+}
+.bottom{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    .bot-center{
+        margin: 50px 0;
+    }
+    p{
+        width: 500px;
+        height: 300px;
+    }
+    dl{
+       margin-left: 80px;
+       margin-top: 65px;
+       text-align: left;
+       dt{
+            font-size: 20px;
+            line-height: 20px; 
+        }
+        dd:nth-of-type(1){
+            width: 50px;
+            height: 5px;
+            background-color: #5179fd;
+        }
+        dd{
+            font-size: 12px;
+            line-height: 24px;
+            color: #666;
+        } 
+        dd:nth-of-type(1){
+            width: 50px;
+            height: 5px;
+            background-color: #5179fd;
+            margin: 29px 0;
+        }
+         
+    }
+    
+}
